@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon (1).ico">
+    <script src="https://kit.fontawesome.com/846104f718.js" crossorigin="anonymous"></script>
+</head>
+<body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#About">About</a></li>
+                        <li><a href="#Services">Services</a></li>
+                        <li><a href="#portfolio">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" style="color: #f2f4f8;" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" style="color: #eef1f6;" onclick="openmenu()"></i>
+                </nav>
+                <img src="logo2.png" id="logo" alt="" width="340px">
+                <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Aditi</span>
+                    <br> Agarwal <br>from India</h1>
+            </div>
+        </div>
+    </div>
+    <!------about------->
+    <div id="About">
+        <div class="container">
+        <div class="row">
+            <div class="about-col1">
+            <img src="WhatsApp Image 2023-09-16 at 1.01.48 AM.jpeg" alt="" ></div>
+            <div class="about-col2">
+            <h1 class="sub-title"><span style="color: #ff004f;">About</span> Me</h1>
+            <p style="margin-top: 20px;">I am a third year student and currently pursuing my B.tech from<br> Ajay Kumar Garg Engineering College, Ghaziabad,
+            in Computer Science and Engineering.<br> I code in C and C++. Currently, I am working on web development.<br>
+            Also I have plans to learn Java and UI/UX in future.
+            I am fluent in English and Hindi.<br>
+            I have keen interest and love to do content-writing. <br>
+            I am confident, determined and hard-working and have high level of persuasiveness. 
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills" >
+                <ul>
+                    <li><span>Web Devlopment</span> <br> Developing web applications </li>
+                    <li><span>Programming languages</span><br> C and C++</li>
+                    <li><span>UI/UX</span> <br>Desinging web interfaces</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2021-2025</span> <br> B.tech fro Akgec, Ghaziabad </li>
+                    <li><span>2021</span><br> Intermediate from MPVM, Prayagraj (CBSC Board)</li>
+                    <li><span>2019</span> <br> School ffrom MPVM, Prayagraj (CBSC Board)</li>
+                </ul>
+            </div>
+        </p> 
+        </div>
+        </div>
+      </div>
+    </div>
+    <!---services------------->
+    <div id="Services">
+        <div class="container">
+            <h1 class="sub-title">My <span style="color: #ff004f;">Services</span></h1>
+            <div class="services-list">
+                <div>
+                    <h2>Web Developer</h2>
+                    <i class="fa-solid fa-window-restore" style="color: #f1f4f8;"></i>
+                    <br>
+                    <p>I am a Web developer and I make various websites... <br> This portfolio site is also made by me and I have made
+                        a clone of razorpay.
+                    
+                </p>
+                    <a href="#">Learn more</a>    
+                </div>
+                <div>
+                    
+                    <h2>Programming languages</h2>
+                    <i class="fa-solid fa-code" style="color: #edeff3;"></i> <br>
+                    <p> I code in C and C++. I am also learning Java.</p>
+                    <a href="#">Learn more-</a>
+                </div>
+                <div>
+                    <h2>UI/UX Designer</h2>
+                    <i class="fa-solid fa-crop-simple"></i> <br>
+                    <p>I design beautiful webpages.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <h2>Content Writter</h2>
+                    <i class="fa-solid fa-pen-nib" style="color: #f1f4f8;"></i>
+                    <br>
+                  <p>I love to do content writing as well. I have also written some blogs.</p>
+                  <a href="#">Learn more</a>
+                </div>
+              
+            </div>
+        </div>
+    </div>
+    <!---------portfolio------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My <span style="color: #ff004f;">Works</span></h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Portfolio website</h3>
+                        <p>This is my personal portfolio website which describes my professional skills. </p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Edtech- website</h3>
+                        <p>It is a complete educational website.</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Recipie  website    </h3>
+                        <p>Shows different recipies</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---------contact------------>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title"><span style="color: #ff004f;">Contact</span> Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>aditi28agarwal@gamil.com</p>
+                    <p><i class="fa-solid fa-phone" style="color:#ff004f;"></i>8808800212</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-instagram" id="instaicon" ></i> </a></div>
+                        <a href="RESUME 23 dec.docx" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form action= "https://sheetdb.io/api/v1/kyta7dgywrp99" method="post" id="sheetdb-form" >
+                        <input type="text" name="data[Name]" placeholder="Your Name" required >
+                        <input type="text" name="data[Email]" placeholder="Your Email" required>
+                        <textarea name="data[Message]"  rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p> Copyright © AditiAgarwal <i class="fa-regular fa-heart" style="color: #d6dce5;"></i>. September 2023 </p>
+        </div>
+    </div>
+   <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.target.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+   </script>
+   <script>
+    var form = document.getElementById('sheetdb-form');
+    form.addEventListener("submit", e => {
+        e.preventDefault();
+        fetch(form.action, {
+            method : "POST",
+            body: new FormData(document.getElementById("sheetdb-form")),
+
+        }).then(
+            response => response.json()
+            ).then((html) => {
+                window.open('d.html', '_blank');
+            });
+        
+    });
+   </script>
+   <script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "400px";
+    }
+
+    var socialicons = document.getElementById("instaicon");
+    socialicons.addEventListener("click", function(){
+        var linkurl = "https://www.instagram.com/?hl=en";
+        window.open(linkurl, "_blank");
+    });
+   </script>
+</body>
+</html>
